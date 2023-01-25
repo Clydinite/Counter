@@ -1,0 +1,64 @@
+html {
+    padding: 0;
+    font-family: "Inconsolata";
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #000010;
+    padding: 10%;
+}
+
+.panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3vmin;
+    flex-grow: 1;
+    font-size: 10vmin;
+}
+
+#panel-1 {
+    background-color: #5B69FF
+}
+
+#panel-2 {
+    background-color: #fd4040
+}
+
+.gap {
+    width: 10%
+}
+
+.button {
+    border-radius: 3vmin;
+    margin: 10%;
+    border: none;
+    height: 20%;
+    font-size: 6vmin;
+    font-family: 'Inconsolata';
+    background-color: rgba(255, 255, 255);
+}
+
+.number {
+    margin: auto;
+    text-align: center;
+    /*animation: next-number 400ms ease;*/
+}
+
+@keyframes next-number {
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
